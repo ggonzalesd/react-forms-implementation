@@ -1,0 +1,26 @@
+:root {
+  color-scheme: dark light;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(45deg,
+    rgb(16, 0, 22) 9%,
+    rgb(31, 0, 66) 44%,
+    rgb(37, 0, 23) 96%
+  );
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
